@@ -1,13 +1,21 @@
 .footer {
-    background-color: #FFF;
-    width: 1440px;
-    height: 1657px;
+    background-color: var(--white);
 }
-.footer-title {
-    color: #212429;
+.footer__title {
+    color: var(--black);
     text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
 }
-.footer-description {
-    color: #212429;
+.footer__description {
+    color: var(--black);
     text-align: center;
+    max-width: 640px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
 }
