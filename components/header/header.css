@@ -1,0 +1,10 @@
+.header {
+    background-color: var(--white);
+}
+.header__title {
+    color: var(--black);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+}
