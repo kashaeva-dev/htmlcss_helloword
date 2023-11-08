@@ -1,5 +1,10 @@
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+}
 .button {
-    width: 189px;
+    flex-grow: 1;
     height: 48px;
     display: inline-block;
     border-radius: 8px;
@@ -11,18 +16,16 @@
     font-weight: 500;
     word-wrap: break-word;
     margin-bottom: 16px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 .button_theme_primary {
     background-color: var(--primary);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 .button_theme_secondary {
     background-color: var(--secondary);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 .button_theme_alternate {
     background-color: var(--white);
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     border: 1px var(--grey-3) solid;
     color: var(--grey-4);
 }
@@ -35,8 +38,6 @@
 .button_theme_alternate:hover {
     border: 1px var(--black) solid;
 }
-.button_disabled {
-    pointer-events: none;
-    cursor: not-allowed;
-    opacity: 0.30;
+.button:disabled {
+    opacity: 0.50;
 }
