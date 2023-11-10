@@ -1,0 +1,8 @@
+.skeleton-container {
+    box-sizing: border-box;
+    width: 579px;
+    height: 192px;
+    border: 1px solid var(--grey-3);
+    border-radius: 12px;
+    padding: 24px 40px 32px 24px;
+}

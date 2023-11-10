@@ -1,0 +1,18 @@
+.skeleton__block-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+.skeleton__line {
+    width: 515px;
+    height: 20px;
+    flex-shrink: 0;
+    background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__block-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
