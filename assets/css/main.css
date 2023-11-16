@@ -1,4 +1,10 @@
 @import '../fonts/fonts.css';
+@import '../../components/container/container.css';
+@import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/preview/preview.css';
+@import '../../components/footer/footer.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -21,6 +27,10 @@
     --primary_hover: var(--blue-2);
     --secondary: var(--purple);
     --secondary_hover: var(--purple-2);
+}
+
+html, body {
+    height: 100%;
 }
 
 * {
