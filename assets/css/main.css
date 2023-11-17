@@ -27,6 +27,8 @@
     --primary_hover: var(--blue-2);
     --secondary: var(--purple);
     --secondary_hover: var(--purple-2);
+
+    --mobile-border: 376px;
 }
 
 html, body {

@@ -1,13 +1,37 @@
 .header {
     background-color: var(--white);
-    padding: 96px 0 77px;
-
+    padding: 96px 0 69px;
+}
+@media screen and (min-width: 568px) {
+    .header {
+        padding: 96px 0 77px;
+    }
 }
 .header__title {
-    color: var(--black);
-    font-size: 50px;
+    color: var(--Gray-4, #495057);
+    font-family: Inter;
+    font-size: 28px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 64px;
+    font-weight: 400;
+    line-height: 38px;
     margin: 0 auto;
+}
+@media screen and (min-width: 568px) {
+    .header__title {
+        color: var(--black);
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 64px;
+        margin: 0 auto;
+    }
+}
+.header__menu-icon {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+@media screen and (min-width: 568px) {
+    .header__menu-icon {
+        display: none;
+    }
 }
