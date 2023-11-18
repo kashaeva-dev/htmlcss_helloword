@@ -1,4 +1,10 @@
 .menu {
     background-color: transparent;
     width: 229px;
+    display: none;
+}
+@media screen and (min-width: 568px) {
+    .menu {
+        display: block;
+    }
 }

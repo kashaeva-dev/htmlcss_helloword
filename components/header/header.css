@@ -11,3 +11,13 @@
     line-height: 64px;
     margin: 0 auto;
 }
+.header__menu-icon {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+@media screen and (min-width: 568px) {
+    .header__menu-icon {
+        display: none;
+    }
+}
