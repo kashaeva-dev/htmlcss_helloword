@@ -1,11 +1,6 @@
 .header {
     background-color: var(--white);
-    padding: 96px 0 69px;
-}
-@media screen and (min-width: 568px) {
-    .header {
-        padding: 96px 0 77px;
-    }
+    padding: 96px 0 77px;
 }
 .header__title {
     color: var(--Gray-4, #495057);
@@ -16,22 +11,6 @@
     line-height: 38px;
     margin: 0 auto;
 }
-@media screen and (min-width: 568px) {
-    .header__title {
-        color: var(--black);
-        font-size: 50px;
-        font-weight: 500;
-        line-height: 64px;
-        margin: 0 auto;
-    }
-}
-.header__menu-icon {
-    position: absolute;
-    top: 20px;
-    left: 16px;
-}
-@media screen and (min-width: 568px) {
-    .header__menu-icon {
-        display: none;
-    }
+.header_transparent {
+    background-color: transparent;
 }
