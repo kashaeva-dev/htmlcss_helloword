@@ -1,15 +1,7 @@
 .footer {
-<<<<<<< HEAD
     background-color: var(--white);
     padding: 72px 0px 132px 0px;
-=======
     display: none;
-}
-@media screen and (min-width: 568px) {
-    .footer {
-        background-color: var(--white);
-    }
->>>>>>> 3f81c1008baba1efcd456394d325c8a3893153da
 }
 .footer__title {
     color: var(--black);
