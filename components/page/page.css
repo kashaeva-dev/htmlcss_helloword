@@ -1,12 +1,7 @@
 .page {
-<<<<<<< HEAD
     background-color: #F9FAFC;
     height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-=======
     display: flex;
     flex-direction: column;
     height: 100%;
->>>>>>> 3f81c1008baba1efcd456394d325c8a3893153da
 }
