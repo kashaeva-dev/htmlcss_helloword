@@ -50,9 +50,12 @@
 .radio__input:focus ~ .radio__state .radio__label {
    text-decoration: underline;
 }
-.radio_disabled {
+.radio__input:disabled ~ .radio__state .radio__control {
     background-color: var(--grey-2);
 }
- .radio_label_disabled {
+.radio__input:disabled ~ .radio__state .radio__inner {
+    background-color: var(--grey-2);
+}
+.radio__input:disabled ~ .radio__state .radio__label {
     color: var(--grey-2);
 }
