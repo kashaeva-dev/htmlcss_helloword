@@ -1,7 +1,6 @@
 .radio {
     position: relative;
     box-sizing: border-box;
-    margin: 0px 16px;
 }
 .radio__input {
     position: absolute;
@@ -13,6 +12,7 @@
     justify-items: center;
     align-items: center;
     cursor: pointer;
+    margin: 16px 0px;
 }
 .radio__control {
     position: relative;
