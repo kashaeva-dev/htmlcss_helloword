@@ -1,7 +1,6 @@
 .toggler {
     position: relative;
     box-sizing: border-box;
-    margin: 0px 16px;
 }
 .toggler__input {
     position: absolute;
@@ -12,6 +11,7 @@
     align-items: center;
     justify-items: center;
     gap: 12px;
+    margin: 16px 0px;
 }
 .toggler__control {
     position: relative;
