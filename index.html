@@ -10,8 +10,19 @@
         <div class="page">
             <header class="header">
                 <div class="container">
-                    <img src="./menu.png" class="header__menu-icon" alt="Меню">
+                    <button id="burger-menu-open">
+                        <svg class="burger-menu__open-icon">
+                            <use href="./assets/icons.svg#burger"></use>
+                        </svg>
+                    </button>
                     <h1 class="header__title">Reusable component library</h1>
+                    <div class="burger-menu" id="burger-menu">
+                        <button id="burger-menu-close">
+                            <svg class="burger-menu__close-icon">
+                                <use href="./assets/icons.svg#cross"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </header>
             <main class="preview">
