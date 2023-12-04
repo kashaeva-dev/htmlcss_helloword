@@ -1,6 +1,8 @@
 .toggler {
     position: relative;
     box-sizing: border-box;
+    display: inline-block;
+    padding-bottom: 16px;
 }
 .toggler__input {
     position: absolute;
@@ -11,7 +13,6 @@
     align-items: center;
     justify-items: center;
     gap: 12px;
-    margin: 16px 0px;
 }
 .toggler__control {
     position: relative;
@@ -22,9 +23,8 @@
 }
 .toggler__inner {
     position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translate(-5%, -50%);
+    top: 2px;
+    left: 1px;
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -33,12 +33,23 @@
 .toggler__input:checked ~ .toggler__state .toggler__control {
     background-color: var(--blue);
     border-color: var(--blue);
+    transition: all 300ms linear;
 }
 .toggler__input:checked ~ .toggler__state .toggler__inner {
     background-color: var(--white);
-    left: 95%;
-    transform: translate(-95%, -50%);
+    transform: translateX(26px);
+    transition: transform 300ms linear, background-color 200ms linear;
 }
+
+.toggler__input:not(:checked) ~ .toggler__state .toggler__control {
+    transition: all 300ms linear;
+}
+
+.toggler__input:not(:checked) ~ .toggler__state .toggler__inner {
+    background-color: var(--grey-2);
+    transition: transform 300ms linear, background-color 200ms linear;
+}
+
 .toggler__input:disabled ~ .toggler__state .toggler__control {
     background-color: var(--grey-2);
     border-color: var(--grey-2);
