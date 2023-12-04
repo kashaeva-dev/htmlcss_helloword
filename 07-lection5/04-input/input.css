@@ -1,10 +1,16 @@
 .input {
     position: relative;
 }
+.input__wrapper {
+    position: relative;
+    margin-bottom: 16px;
+}
+.input__wrapper:last-child {
+    margin-bottom: 0px;
+}
 .input__field {
     box-sizing: border-box;
     display: block;
-    margin: 39px 0px;
     width: 100%;
     padding: 17px 56px 13px 24px;
     border: 1px solid var(--grey-2);
@@ -15,39 +21,35 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 5px; 
 }
 .input__field::placeholder {
     color: var(--grey-2);  
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
 }
-.input__icon_success {
+.input__icon {
     display: none;
     position: absolute;
-    top: 40px;
+    top: 16px;
     right: 16px;
     width: 24px;
     height: 24px;
     color: #374FC7;
 }
-.input__icon_error {
-    display: none;
-    position: absolute;
-    top: 40px;
-    right: 16px;
-    width: 24px;
-    height: 24px;
-    color: #F03D3E;
-}
-.input_icon_active {
+.input__icon_success {
     display: inline;
+    color: var(--blue);
+}
+.input__icon_invalid {
+    display: inline;
+    color: var(--red);
+}
+.input__field_success {
+    border-color: var(--blue);
+}
+.input__field_invalid {
+    border-color: var(--red);
 }
 .input__label {
-    margin: 5px 0px;
+    margin-bottom: 5px;
     color: var(--grey-3);
     font-family: Inter;
     font-size: 12px;
@@ -59,9 +61,6 @@
 }
 .input__field:focus {
     border-color: var(--blue);
-}
-.input_invalid {
-    border-color: #F03D3E;
 }
 .input_invalid:focus {
     outline: none;

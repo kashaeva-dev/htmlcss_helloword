@@ -8,36 +8,36 @@
     </head>
     <body>
         <div class="input-container">
-            <label class="input">
-                <div class="input__label">Label</div>
+            <div class="input__label">Label</div>
+            <div class="input__wrapper">
+                <svg class="input__icon">
+                    <use href="../../assets/icons.svg#success"></use>
+                </svg>
+                <svg class="input__icon">
+                    <use href="../../assets/icons.svg#error"></use>
+                </svg>
                 <input type="text" class="input__field">
-                <svg class="input__icon_success">
+            </div>
+            <div class="input__label">Success</div>
+            <div class="input__wrapper">
+                <svg class="input__icon input__icon_success">
                     <use href="../../assets/icons.svg#success"></use>
                 </svg>
-                <svg class="input__icon_error">
+                <svg class="input__icon">
                     <use href="../../assets/icons.svg#error"></use>
                 </svg>
-            </label>
-            <label class="input">
-                <div class="input__label">Success</div>
-                <input type="text" value="Success" class="input__field">
-                <svg class="input__icon_success input_icon_active">
+                <input type="text" value="Success" class="input__field input__field_success">
+            </div>
+            <div class="input__label">Error</div>
+            <div class="input__wrapper">
+                <svg class="input__icon">
                     <use href="../../assets/icons.svg#success"></use>
                 </svg>
-                <svg class="input__icon_error">
+                <svg class="input__icon input__icon_invalid">
                     <use href="../../assets/icons.svg#error"></use>
                 </svg>
-            </label>
-            <label class="input">
-                <div class="input__label">Error</div>
-                <input type="text" value="Error" class="input__field input_invalid">
-                <svg class="input__icon_success">
-                    <use href="../../assets/icons.svg#success"></use>
-                </svg>
-                <svg class="input__icon_error input_icon_active">
-                    <use href="../../assets/icons.svg#error"></use>
-                </svg>
-            </label>
+                <input type="text" value="Error" class="input__field input__field_invalid">
+            </div>
         </div>
     </body>
 </html>
