@@ -2,13 +2,12 @@
     position: relative;
     box-sizing: border-box;
     display: inline-block;
-    padding-bottom: 16px;
 }
-
-.radio:last-child {
-    padding-bottom: 0px;
+.radio__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
-
 .radio__input {
     position: absolute;
     left: -100vw;
