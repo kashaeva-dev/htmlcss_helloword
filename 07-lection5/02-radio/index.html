@@ -4,8 +4,39 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <link rel="stylesheet" href="./radio-container.css">
     </head>
     <body>
-
+        <div class="radio-container">
+            <div class="radio__wrapper">
+                <label class="radio">
+                    <input type="radio" name="my_radio" class="radio__input">
+                    <div class="radio__state">
+                        <div class="radio__control">
+                            <div class="radio__inner"></div>
+                        </div>
+                        <div class="radio__label">Default</div>
+                    </div>
+                </label>
+                <label class="radio">
+                    <input type="radio" checked name="my_radio" class="radio__input">
+                    <div class="radio__state">
+                        <div class="radio__control">
+                            <div class="radio__inner"></div>
+                        </div>
+                        <div class="radio__label">Selected</div>
+                    </div>
+                </label>
+                <label class="radio">
+                    <input type="radio" disabled name="my_radio" class="radio__input">
+                    <div class="radio__state">
+                        <div class="radio__control">
+                            <div class="radio__inner"></div>
+                        </div>
+                        <div class="radio__label">Disabled</div>
+                    </div>
+                </label>
+            </div>
+        </div>
     </body>
 </html>

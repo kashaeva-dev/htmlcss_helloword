@@ -1,6 +1,5 @@
 .checkbox {
     position: relative;
-    margin: 0px 16px;
 }
 
 .checkbox__input {
@@ -13,7 +12,7 @@
     align-items: center;
     gap: 12px;
     cursor: pointer;
-
+    margin: 16px 0px;
 }
 
 .checkbox__control {
@@ -36,8 +35,7 @@
 }
 
 .checkbox__icon {
-    color: white;
-    stroke-width: 3px;
+    color: var(--white);
 }
 
 .checkbox__input:checked ~ .checkbox__state
@@ -48,11 +46,6 @@
 
 .checkbox__input:focus ~ .checkbox__state .checkbox__label {
     text-decoration: underline;
-}
-
-.checkbox__input:disabled {
-    position: absolute;
-    left: -100vw;
 }
 
 .checkbox__input:disabled ~ .checkbox__state .checkbox__control {
