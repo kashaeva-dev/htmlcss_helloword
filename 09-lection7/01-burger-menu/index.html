@@ -6,35 +6,39 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <link rel="stylesheet" href="./burger-menu-container.css">
+        <link rel="stylesheet" href="./button-icons.css">
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
         <div class="burger-menu-container">
-            <button id="burger-menu-open" class="burger-menu__button">
-                <svg class="burger-menu__open-icon">
+            <button id="burger-menu-open" class="button-icon">
+                <svg class="button-icon__open">
                     <use href="../../assets/icons.svg#menu"></use>
                 </svg>
             </button>
             <h1 class="header__title">Reusable component library</h1>
+            
             <div class="burger-menu" id="burger-menu">
-                <button id="burger-menu-close" class="burger-menu__button burger-menu__button_gray burger-menu__button_size">
-                    <svg class="burger-menu__close-icon">
-                        <use href="../../assets/icons.svg#cross"></use>
-                    </svg>
-                </button>
-                <nav>
-                    <ul class="burger-menu__items">
-                       <h4 class="burger-menu__title">Components</h4>
-                       <ol class="burger-menu__item">Modal</ol>
-                       <ol class="burger-menu__item burger-menu_current">Tooltip</ol>
-                       <ol class="burger-menu__item">Avatar</ol>
-                       <ol class="burger-menu__item">Calendar</ol>
-                       <ol class="burger-menu__item">Histogram</ol>
-                       <ol class="burger-menu__item">Custom form elements</ol>
-                       <ol></ol>
-                       <ol class="burger-menu__item">Main page</ol>
-                    </ul>
-                </nav>
+                <div class="burger-menu__area">
+                    <button id="burger-menu-close" class="button-icon button-icon_gray button-icon_size">
+                        <svg class="button-icon__close">
+                            <use href="../../assets/icons.svg#cross"></use>
+                        </svg>
+                    </button>
+                    <nav>
+                        <ul class="burger-menu__items">
+                           <h4 class="burger-menu__title">Components</h4>
+                           <ol class="burger-menu__item">Modal</ol>
+                           <ol class="burger-menu__item burger-menu_current">Tooltip</ol>
+                           <ol class="burger-menu__item">Avatar</ol>
+                           <ol class="burger-menu__item">Calendar</ol>
+                           <ol class="burger-menu__item">Histogram</ol>
+                           <ol class="burger-menu__item">Custom form elements</ol>
+                           <ol></ol>
+                           <ol class="burger-menu__item">Main page</ol>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </body>

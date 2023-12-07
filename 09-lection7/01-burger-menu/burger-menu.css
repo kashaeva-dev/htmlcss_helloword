@@ -13,46 +13,6 @@
     transform: none;
 }
 
-.burger-menu__open-icon {
-    width: 24px;
-    height: 24px;
-    color: black;
-}
-
-.burger-menu__close-icon {
-    width: 24px;
-    height: 24px;
-    margin: 0px auto;
-}
-
-.burger-menu__button {
-    width: 24px;
-    height: 24px;
-    border: 1px solid transparent;
-    background-color: transparent;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media screen and (min-width: 568px) {
-    .burger-menu__button {
-        display: none;
-    }
-}
-
-.burger-menu__button_gray {
-    background-color: var(--grey-2);
-    border-radius: 50%;
-}
-
-.burger-menu__button_size {
-    width: 32px;
-    height: 32px;
-    margin: 16px 12px;
-}
-
 .burger-menu__items {
     display: flex;
     flex-direction: column;

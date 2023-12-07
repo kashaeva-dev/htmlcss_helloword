@@ -1,0 +1,42 @@
+.button-icon__open {
+    width: 24px;
+    height: 24px;
+    color: black;
+}
+
+.button-icon__close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 32px;
+    left: 28px;
+    transform: translate(-50%, -50%);
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 568px) {
+    .burger-menu__button {
+        display: none;
+    }
+}
+
+.button-icon_gray {
+    background-color: var(--grey-2);
+    border-radius: 50%;
+}
+
+.button-icon_size {
+    width: 32px;
+    height: 32px;
+    margin: 16px 12px;
+}
