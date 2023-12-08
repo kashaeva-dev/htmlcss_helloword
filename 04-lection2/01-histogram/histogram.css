@@ -12,7 +12,7 @@
 }
 .histogram__title {
     flex-grow: 1;
-    color: var(--Black, #212429);
+    color: var(--text);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -20,6 +20,7 @@
     opacity: 0.8;
     margin: 0px;
 }
+
 .histogram__link {
     color: var(--blue);
     text-align: right;
@@ -30,8 +31,9 @@
     padding-top: 3px;
     margin: 0px;
 }
+
 .histogram__total {
-    color: var(--Black, #212429);
+    color: var(--text-dark-light);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -54,4 +56,54 @@
     flex-grow: 1;
     flex-shrink: 0;
     background: var(--blue);
+}
+.histogram__range_small {
+    flex-basis: 3px;
+}
+@media screen and (min-width: 568px) {
+    .histogram__range_small {
+        flex-basis: 5px;
+    }
+}
+.histogram_small {
+    width: 140px;
+    padding: 4px 6px 6px;
+}
+@media screen and (min-width: 568px) {
+    .histogram_small {
+        width: 260px;
+        padding: 8px 12px 12px;
+    }
+}
+.histogram__text_small {
+    font-size: 12px;
+    line-height: 14px;
+}
+@media screen and (min-width: 568px) {
+    .histogram__text_small {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.histogram__chart_small {
+    height: 30px;
+}
+@media screen and (min-width: 568px) {
+    .histogram__chart_small {
+        height: 50px;
+    }
+}
+.histogram__total_small {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 568px) {
+    .histogram__total_small {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 6px;
+        margin-bottom: 39px;
+    }
 }

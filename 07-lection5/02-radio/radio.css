@@ -27,13 +27,13 @@
     height: 28px;
     border-radius: 50%;
     border: 1px solid var(--grey-2);
-    background-color: var(--white);
+    background-color: var(--radio-inner);
 }
 .radio__inner {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-color: var(--white);
+    background-color: var(--radio-inner);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +41,7 @@
 
 }
 .radio__label {
-    color: var(--Gray-4, #495057);
+    color: var(--text);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -58,11 +58,12 @@
    text-decoration: underline;
 }
 .radio__input:disabled ~ .radio__state .radio__control {
-    background-color: var(--grey-2);
+    border-color: var(--disabled);
+    background-color: var(--disabled);
 }
 .radio__input:disabled ~ .radio__state .radio__inner {
-    background-color: var(--grey-2);
+    background-color: var(--disabled);
 }
 .radio__input:disabled ~ .radio__state .radio__label {
-    color: var(--grey-2);
+    color: var(--disabled);
 }
