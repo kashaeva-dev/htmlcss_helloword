@@ -47,6 +47,11 @@
     align-items: center;
     justify-content: center;  
 }
+@media screen and (min-width: 568px) {
+    .button_icon {
+        display: none;
+    }
+}
 .button_icon-position {
     position: absolute;
     top: 32px;
