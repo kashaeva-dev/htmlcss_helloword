@@ -40,10 +40,10 @@
     color: var(--red);
 }
 .input_success {
-    display: inline;
+    
 }
 .input_invalid {
-    display: inline;
+    
 }
 .input__field_success {
     border-color: var(--blue);
