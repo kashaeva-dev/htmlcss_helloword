@@ -66,22 +66,22 @@
         padding: 15px;
     }
 }
-.calendar_small_text {
+.calendar__item_small {
     font-size: 9px;
     line-height: 12px;
 }
 @media screen and (min-width: 568px) {
-    .calendar_small_text {
+    .calendar__item_small {
         font-size: 12px;
         line-height: 14px;
     }
 }
-.calendar_small_title {
+.calendar__title_small {
     font-size: 12px;
     line-height: 16px;
 }
 @media screen and (min-width: 568px) {
-    .calendar_small_title {
+    .calendar__title_small {
         font-size: 14px;
         line-height: 18px;
     }
