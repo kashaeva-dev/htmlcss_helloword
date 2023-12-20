@@ -36,3 +36,30 @@
     pointer-events: none;
     opacity: 0.50;
 }
+.button_icon {
+    width: 24px;
+    height: 24px;
+    color: black;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.button_icon-position {
+    position: absolute;
+    top: 32px;
+    left: 28px;
+    transform: translate(-50%, -50%);
+}
+.button_grey {
+    background-color: var(--grey-2);
+    border-radius: 50%;
+}
+
+.button_size {
+    width: 32px;
+    height: 32px;
+    margin: 16px 12px;
+}
