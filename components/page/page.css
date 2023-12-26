@@ -1,5 +1,5 @@
 .page {
-    background-color: #F9FAFC;
+    background-color: var(--page-background);
     height: 100vh;
     display: flex;
     flex-direction: column;
