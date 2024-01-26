@@ -1,0 +1,10 @@
+.theme-changer {
+    display: none;
+}
+@media screen and (min-width: 568px) {
+    .theme-changer {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+    }
+}
