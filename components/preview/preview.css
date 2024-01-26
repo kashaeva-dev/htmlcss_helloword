@@ -1,0 +1,21 @@
+.preview {
+    flex-grow: 1;
+    background-color: var(--preview-area);
+    padding: 22px 0px;
+}
+@media screen and (min-width: 768px) {
+    .preview {
+        padding: 68px 0px 68px 0px;
+    }
+}
+.preview__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+@media screen and (min-width: 768px) {
+    .preview__cards {
+        gap: 30px;
+    }
+}
