@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    gap: 8px;
+}
+.logo__triangle {
+    width: 0;
+	height: 0;
+	border-bottom: 30px solid var(--black); 
+	border-right: 30px solid transparent;	
+}
+.logo__cicle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--black);
+}
+.logo__square {
+    width: 30px;
+    height: 30px;
+    background-color: var(--black);
+}
