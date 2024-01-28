@@ -43,16 +43,16 @@
 .input_invalid {
     
 }
-.input_success.input__icon_success {
+.input_success .input__icon_success {
     display: inline;
 }
-.input_invalid.input__icon_invalid {
+.input_invalid .input__icon_invalid {
     display: inline;
 }
-.input__field_success {
+.input_success .input__field {
     border-color: var(--blue);
 }
-.input__field_invalid {
+.input_invalid .input__field {
     border-color: var(--red);
 }
 .input__label {
@@ -69,7 +69,7 @@
 .input__field:focus {
     border-color: var(--blue);
 }
-.input__field_invalid:focus {
+.input_invalid .input__field:focus {
     outline: 2px solid var(--red);
     border-color: var(--red);
 }
