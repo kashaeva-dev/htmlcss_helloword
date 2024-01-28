@@ -13,6 +13,10 @@
     transform: none;
 }
 
+.burger-menu__inner {
+    padding: 16px 12px;
+}
+
 .burger-menu__items {
     display: flex;
     flex-direction: column;
@@ -39,6 +43,6 @@
     line-height: 24px;
 }
 
-.burger-menu_current {
+.burger-menu__item_current {
     color: var(--red);
 }
